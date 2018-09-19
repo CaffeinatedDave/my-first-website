@@ -1,7 +1,9 @@
 # my-first-website
 This repo will get you started building your own website using github pages.
 
-To get set up, first you will need a github account, so register [here](https://github.com/join) or login, then click the Fork button at the top of this page. ![fork button](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+To get set up, first you will need a github account, so register [here](https://github.com/join) or login, then click the Fork button at the top of this page.
+
+![fork button](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
 This creates your very own copy (or repository) of the site in your own area, where you can do whatever you like with it.
 
