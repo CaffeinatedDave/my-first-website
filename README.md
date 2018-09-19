@@ -1,13 +1,15 @@
 # my-first-website
 
-As this week is [https://codingweek.org/](https://codingweek.org/) we will try to create your first website. This repo will get you started building your own website using GitHub pages.
+As part of [https://codingweek.org/](https://codingweek.org/) you will try to create your first website. This repo will get you started building your own website using GitHub pages.
 
 What you will need: 
 * To get set up, first you will need a GitHub account, so register [here](https://github.com/join) or login
 
-* Git on your machine (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
+* Get git on your machine [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and set it up for the first time [here](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup). For more info about git try [here](https://try.github.io/) or warch the video [here](https://www.youtube.com/watch?v=CkUdhyuRHws)
 
-* Think of your website structure – what do you want to convey, what pages might it have 
+* Download a code editor: [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/) or [Sublime](https://www.sublimetext.com/)
+
+* Think of your website structure – what do you want to convey, what pages might it might have
 
 * Then click the Fork button at the top of this page.
 
@@ -15,7 +17,7 @@ What you will need:
 
 This creates your very own copy (or repository) of the site in your own area, where you can do whatever you like with it.
 
-You will need to find your own version of the repo, this will be at `https://github.com/<your_username>/my-first-website` - go into settings, and change the Repository name to `<your_username>.github.io`. Then you can go back to the code and alter it, either by checking it out to your own machine, or by using GitHub's own code editor.
+You will need to find your own version of the repo, this will be at `https://github.com/<your_username>/my-first-website` - go into settings, and change the Repository name to `<your_username>.github.io` to enable GitHub Pages publishing. Then you can go back to the code and alter it, either by checking it out to your [own machine](https://help.github.com/articles/cloning-a-repository/), or by using GitHub's own code editor.
 
 ### How do I customise this (quick version)
 
