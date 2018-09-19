@@ -1,0 +1,7 @@
+body {
+  padding-top: 70px;
+}
+body>div.container {
+  width: 80%;
+  margin: auto;
+}
