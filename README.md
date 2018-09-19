@@ -1,7 +1,15 @@
 # my-first-website
-This repo will get you started building your own website using GitHub pages.
 
-To get set up, first you will need a GitHub account, so register [here](https://github.com/join) or login, then click the Fork button at the top of this page.
+As this week is [https://codingweek.org/](https://codingweek.org/) we will try to create your first website. This repo will get you started building your own website using GitHub pages.
+
+What you will need: 
+* To get set up, first you will need a GitHub account, so register [here](https://github.com/join) or login
+
+* Git on your machine (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
+
+* Think of your website structure – what do you want to convey, what pages might it have 
+
+* Then click the Fork button at the top of this page.
 
 ![fork button](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
