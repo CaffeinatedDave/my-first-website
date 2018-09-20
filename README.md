@@ -9,7 +9,7 @@ What you will need:
 
 * Download a code editor: [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/) or [Sublime](https://www.sublimetext.com/)
 
-* Think of your website structure – what do you want to convey, what pages might it might have
+* Think of your website structure – what do you want to convey, what pages might it have
 
 * Then click the Fork button at the top of this page.
 
