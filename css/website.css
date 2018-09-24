@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+  padding-top: 0px;
 }
 body>div.container {
   width: 80%;
@@ -9,4 +9,25 @@ body>div.container {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
   background-image: linear-gradient(to right, rgb(94, 255, 0) , rgb(255, 0, 200));
+}
+.jumbotron {
+  background-color: #cccccc;
+
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/nhs.uk/Work/Ross-Clark.github.io/img/pills.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 250px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
