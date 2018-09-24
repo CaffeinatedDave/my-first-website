@@ -1,9 +1,7 @@
-body {
-  padding-top: 0px;
-}
+
 body>div.container {
   width: 80%;
-  margin: auto;
+  margin: 0px,0px;
 }
 .tables {
   font-family: Arial, Helvetica, sans-serif;
@@ -12,6 +10,7 @@ body>div.container {
 }
 .jumbotron {
   background-color: #cccccc;
+  margin: 0px;
 
 }
 .hero-image {
@@ -30,4 +29,39 @@ body>div.container {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.stripe:nth-child(odd) {
+   background-color: whitesmoke
+}
+.stripe:nth-child(even){
+   background-color: rgba(211, 211, 211, 0.5)
+}
+
+.button {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 12px 21px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 5px;
+  opacity: 0.80;
+  transition: 0.3s;
+  position: relative;
+  margin-top: 5px;
+  margin-right :0px;
+} 
+
+.button:hover {opacity: 1}
+
+.chevron{
+  align-self:right;
+  position: absolute;
+  fill: #FFFFFF;
+  height: 24px;
+  position: absolute;
+  right: 12px;
+  top: 14px;
+  width: 24px;
 }
