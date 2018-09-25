@@ -14,7 +14,7 @@ body>div.container {
 
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/nhs.uk/Work/Ross-Clark.github.io/img/pills.jpg"); /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/pills.jpg"); /* The image */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 250px; /* You must set a specified height */
   background-position: center; /* Center the image */
