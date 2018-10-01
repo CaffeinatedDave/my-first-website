@@ -15,36 +15,56 @@
     
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="https://ross-clark.github.io/index.html"><img src="not-health-service.jpg" alt="Home"></a>
+    <!-- 2 part nav bar - header and navbar elements and alerts-->
+        <!--Alert-->
+    <div class="alert alert-danger alert-dismissible flush">
+        <div class="container">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>This is a parody website!</strong> If you would like real help or advice go to <a href="https://nhs.uk">nhs.uk</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </div>
+    </div>
+        <!--Header-->
+    <header>
+      <div class="global-header">
+          <div class="container">
+              <!-- footer-  needs links, a logo added .etc -->
+                <div>
+                  <a href="index.html"><img src="img/not_health_service.png" alt=Home></a>
+                </div>
+              </div>
       </div>
-    </nav>
+    </header>
+        <!--Nav-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary flex-nowrap">
+          <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbar5">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class="navbar-brand w-100">Navbar 5</span>
+          <div class="navbar-collapse collapse w-100 justify-content-center" id="navbar5">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Codeply</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="w-100"><!--spacer--></div>
+      </nav>
     <div class="jumbotron hero-image">
       <div class="hero-text">
       <h1>Not Health Service</h1>
       <p> Not here for you </p>
       </div>
     </div>
-    <!-- Services-->
+    <!-- Services need to add appropriate links, when some content is made-->
     <section class="stripe">
       <div class="container">
         <div class="text-center row">
-        <!-- change to "services" add linked boxes to different pages; use tables in a different page-->
          <h2 class="col-xs-2">Services</h2>
          <p class="col-xs-10"></p>
         </div>
@@ -53,11 +73,11 @@
         <br>
         </div>
           <div class="row justify-content-center">
-                <a href="about.html" class="button col-xs-5">square button 
+                <a href="about.html" class="button col-xs-5">about 
                   <span class="chevron glyphicon glyphicon-chevron-right"></span>
                 </a>
                 <p class="col-xs-2"> </p> 
-                <a href="about.html" class="button col-xs-5">square button 
+                <a href="testing.html" class="button col-xs-5">testing 
                   <span class="chevron glyphicon glyphicon-chevron-right"></span>
                 </a> 
             </div>
@@ -82,12 +102,11 @@
         </div> 
       </div>
     </section>
-    <!-- section 2-->
+    <!-- unhealthy living section-->
     <section class="stripe">
       <div class="container">
         <div class="text-center row">
-        <!-- add "unhealth living section - parady of health living on nhs website-->
-        <h2 class=col-xs-2>stuff</h2>
+        <h2 class=col-xs-2>things</h2>
         <p class=col-xs-10></p>
         <br>
         </div>
@@ -110,10 +129,13 @@
         <br>
       </div>
     </section>
-    <footer style="background-color: red">
+    <footer class="global-footer">
+      <div class="container">
       <!-- footer-  needs links, a logo added .etc -->
-      <br>
-      <br>
+        <div class="container">
+          <a href="index.html"><img src="img/not_health_service.png" alt=Home></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
