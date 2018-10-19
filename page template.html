@@ -1,43 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>NHS - Home</title>
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-            <!-- Latest compiled and minified CSS -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-            <!-- Optional theme -->
-            <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
-            <link rel="stylesheet" href="css/website.css">
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <!-- Latest compiled and minified JavaScript -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-            <script src="js/website.js"></script>    
-    </head>
-    <body>
-        <!--navbar-->
-        <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="https://ross-clark.github.io/index.html"><img src="/img/not_health_service.png" alt="Home"></a>
-                  </div>
-                  <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                    </ul>
-                  </div>
-                </div>
-        </nav>
-        <!--footer-->
-        <footer style="background-color: red">
-            <!-- footer-  needs links, a logo added .etc -->
-            <br>
-            <br>
-        </footer>        
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>NHS - Home</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/website.css">
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/website.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  
+  <body>
+    <!--aboutModal-->
+      <div class="modal fade" id="aboutModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <div class="modal-header">
+                <h4 class="modal-title">About</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+        
+              <div class="modal-body">
+                This website was made for Codeup.
+
+                It was meant to be a parody of <a href="https://www.nhs.uk/">NHS.UK</a>, giving poor health advise instead of good health advise.
+              </div>
+        
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+      </div>
+      <!--Alert-->
+      <div class="alert alert-danger alert-dismissible flush row">
+        <div class="container">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>This is a parody website!</strong> If you would like real help or advice go to <a href="https://nhs.uk">nhs.uk</a>
+        </div>
+      </div>
+      <!--Nav-->
+      <nav class="navbar navbar-expand-md navbar-dark global-header">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/not_health_service.png" alt=Home></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">things</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">stuff</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="collapse">Link</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" href="#aboutModal">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--content-->
+
+      <!--Footer-->
+      <footer class="global-footer">
+          <div class="container">
+            <span>
+              <ul class="row footer-ul">
+              <li class="footer-logo"><a href="index.html" class="footer-logo"><img src="img/not_health_service.png" alt=Home></a></li>
+              <li class="col-2 footer-list"><a  href="#"> Accessibility</a></li>
+              <li class="col-2 footer-list"><a  href="/sitemap.html"> sitemap </a></li>
+              <li class="col-2 footer-list"><a  href="#top"> Back to top</a></li>
+              <li class="col-3 footer-list"></li>
+              </ul>
+            </span>
+          </div>
+        </footer>
+      </body>
+    </html>

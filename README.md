@@ -41,3 +41,13 @@ Anything you can imagine: You can build on this site to turn it into your own po
 _* I am not being paid to recommend these links - any recommendations come from actually using and liking the products they offer!_
 
 
+###### Planning
+* finish footer - add links - site map - stretch accessibility
+* populate new pages - try making a page template - see below
+* populate front page - linking to content pages
+
+###### potential content pages
+* site map
+* find fast food
+* 
+

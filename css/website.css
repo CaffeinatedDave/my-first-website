@@ -1,5 +1,5 @@
 
-body>div.container {
+.container {
   width: 80%;
   margin: 0px,0px;
 }
@@ -29,6 +29,11 @@ body>div.container {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.stripe{
+  margin:0;
+  padding:12px;
 }
 
 .stripe:nth-child(odd) {
@@ -84,3 +89,32 @@ body>div.container {
 }
 
 
+ul {
+  list-style: none;
+}
+li {
+
+  display: inline;
+}
+
+.footer-list { 
+padding: 15px;
+text-decoration: underline;
+text-decoration-color: #cccccc;
+color: #cccccc;
+}
+
+.footer-ul{
+  padding: 10px;
+}
+
+.footer-logo{
+padding: 10px;
+
+}
+
+.footer-btt{
+  align-content: center;
+  
+
+}
