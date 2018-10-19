@@ -97,6 +97,12 @@ li {
   display: inline;
 }
 
+.footer-list-item{
+  color:#cccccc;
+  align-content: right
+  
+}
+
 .footer-list { 
 padding: 15px;
 text-decoration: underline;
