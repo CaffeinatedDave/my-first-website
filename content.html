@@ -1,7 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>NHS - Home</title>
 
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/website.css">
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/website.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  
+  <body>
+    <!--aboutModal-->
+      <div class="modal fade" id="aboutModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <div class="modal-header">
+                <h4 class="modal-title">About</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+        
+              <div class="modal-body">
+                This website was made for Codeup.
 
+                It was meant to be a parody of <a href="https://www.nhs.uk/">NHS.UK</a>, giving poor health advise instead of good health advise.
+              </div>
+        
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+      </div>
+      <!--Alert-->
+      <div class="alert alert-danger alert-dismissible flush row">
+        <div class="container">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>This is a parody website!</strong> If you would like real help or advice go to <a href="https://nhs.uk">nhs.uk</a>
+        </div>
+      </div>
+      <!--Nav-->
+      <nav class="navbar navbar-expand-md navbar-dark global-header">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/not_health_service.png" alt=Home></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">things</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">stuff</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="collapse">Link</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" href="#aboutModal">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
 
-<p>
+<p class="container">
 
         Praesent cursus ultrices auctor. Curabitur eu accumsan dui. Nunc in quam malesuada leo finibus bibendum. Donec ac ultricies risus, eu ultricies orci. Morbi non iaculis ligula. Sed fringilla a ex ac aliquam. Suspendisse dictum accumsan tellus quis consectetur. Nullam ac malesuada est, nec blandit arcu. Donec vehicula, justo ac mollis rutrum, eros risus porttitor ipsum, ac dictum enim velit eu neque.
         
@@ -13,3 +92,21 @@
         
         Nullam sed mi interdum, blandit dolor vitae, accumsan massa. Pellentesque semper ac tortor vitae commodo. Duis vehicula quam mauris, ac bibendum tellus molestie non. Fusce at congue dui. Vestibulum at mi elit. Ut et elit id ante semper tristique. Vestibulum purus elit, venenatis at lobortis eu, sagittis efficitur est. Sed pharetra laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
     </p>
+
+        <!--footer - needs links added - white text - underlining-->
+        <footer class="global-footer">
+                <div class="container">
+                  <span>
+                    <ul class="row footer-ul">
+                    <li class="footer-logo"><a href="index.html" class="footer-logo"><img src="img/not_health_service.png" alt=Home></a></li>
+                    <li class="col-1 footer-list"></li>
+                    <li class="col-2 footer-list"><a class="footer-list-item"  href="#"> Accessibility</a></li>
+                    <li class="col-2 footer-list"><a class="footer-list-item" href="/sitemap.html"> sitemap </a></li>
+                    <li class="col-2 footer-list"></li>
+                    <li class="col-2 footer-list"><a class="footer-list-item" href="#top"> return to top</a></li>
+                    </ul>
+                  </span>
+                </div>
+              </footer>
+            </body>
+          </html>

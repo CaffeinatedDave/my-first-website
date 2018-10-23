@@ -1,6 +1,6 @@
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0px,0px;
 }
 .tables {
@@ -123,4 +123,9 @@ padding: 10px;
   align-content: center;
   
 
+}
+
+.list{
+  list-style: circle !important;
+  display: block !important;
 }
