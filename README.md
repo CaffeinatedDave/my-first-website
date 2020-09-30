@@ -1,15 +1,15 @@
-# my-first-website
+# My-first and Amazing-website
 
-As part of [https://codingweek.org/](https://codingweek.org/) you will try to create your first website. This repo will get you started building your own website using GitHub pages.
+As part of this [https://codingweek.org/](https://codingweek.org/) you will try to create your first website. This repo will get you started building your own website using GitHub pages.
 
-What you will need: 
+What you will need to get started: 
 * To get set up, first you will need a GitHub account, so register [here](https://github.com/join) or login
 
 * Get git on your machine [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and set it up for the first time [here](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup). For more info about git try [here](https://try.github.io/) or warch the video [here](https://www.youtube.com/watch?v=CkUdhyuRHws)
 
 * Download a code editor: [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/) or [Sublime](https://www.sublimetext.com/)
 
-* Think of your website structure – what do you want to convey, what pages might it have
+* Think of your website structure – what do you want to convey, what pages might it have.
 
 * Then click the Fork button at the top of this page.
 
